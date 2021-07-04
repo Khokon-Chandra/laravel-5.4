@@ -14,7 +14,7 @@ class AddNomineeNidToMembersTable extends Migration
     public function up()
     {
         Schema::table('members', function (Blueprint $table) {
-            $table->string('spouse_nid')->after('spouse');
+            $table->string('spouse_nid')->after('spouse')->nullable();
         });
     }
 

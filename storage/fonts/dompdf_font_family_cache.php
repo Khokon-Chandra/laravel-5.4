@@ -79,8 +79,9 @@
   ),
   'roboto' => array(
     'normal' => $fontDir . '\22fafb5c9595bea6b1c9e6e5b6728c91',
+    '500' => $fontDir . '/roboto-500_7bbf6497331dda84106cee0aafa93ef6',
   ),
   'source sans pro' => array(
-    'normal' => $fontDir . '\32aa7e08aff0396bcc09ceef93af0e8b',
+    'normal' => $fontDir . '/source-sans-pro-normal_b93742b4fdc85f7c597b89467e1a88ee',
   ),
 ) ?>

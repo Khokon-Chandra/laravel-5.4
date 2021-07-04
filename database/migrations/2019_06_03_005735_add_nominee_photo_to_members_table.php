@@ -14,7 +14,7 @@ class AddNomineePhotoToMembersTable extends Migration
     public function up()
     {
         Schema::table('members', function (Blueprint $table) {
-            $table->string('spouse_photo')->after('spouse_nid');
+            $table->string('spouse_photo')->after('spouse_nid')->nullable();
         });
     }
 
