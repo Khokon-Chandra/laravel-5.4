@@ -44,5 +44,6 @@ class HomeController extends Controller
         $investments_closed = Investment::where('status', 0)->count();
 
         return view('dashboard', compact('all_cash_in', 'all_cash_out', 'members', 'cash_out', 'cash_in', 'investments_in', 'investments_out', 'bank_balance', 'all_investments_in', 'all_investments_out', 'investments_closed', 'investments_running'));
+        
     }
 }

@@ -12,8 +12,8 @@
         		<div class="col-md-10">
         			<strong>System Summary</strong>
         		</div>
-        		<div class="col-md-2" style="float: right;">{{ Carbon\Carbon::today()->format('d-M-Y') }} -
-        			<span>{{ Carbon\Carbon::today()->format('l') }}</span>
+        		{{-- <div class="col-md-2" style="float: right;">{{ Carbon\Carbon::today()->format('d-M-Y') }} - --}}
+        			{{-- <span>{{ Carbon\Carbon::today()->format('l') }}</span> --}}
         		</div>
         	</div>
         	<hr style="border: 1px solid #d2d6de;">
@@ -139,7 +139,7 @@
 			           <span class="info-box-icon bg-yellow"><i class="fa fa-money"></i></span>
 			           <div class="info-box-content">
 			               <span class="info-box-text">Total Available Bank Balance</span>
-			               <span class="info-box-number" style="margin-top: 10px;">{{ $bank_balance->total_amount }}</span>
+			               {{-- <span class="info-box-number" style="margin-top: 10px;">{{ $bank_balance->total_amount }}</span> --}}
 			           </div><!-- /.info-box-content -->
 			       </a><!-- /.info-box -->
 			   </div>
