@@ -14,11 +14,11 @@ class DatabaseSeeder extends Seeder
      */
     public function run()
     {
-        $this->call(UserSeeder::class);
-        $this->call(MemberSeeder::class);
-        $this->call(CashinSeeder::class);
-        factory(BankBalance::class,20)->create();
+        // $this->call(UserSeeder::class);
+        // $this->call(MemberSeeder::class);
+        // $this->call(CashinSeeder::class);
+        // factory(BankBalance::class,20)->create();
         factory(Investment::class,20)->create();
-        factory(CashOut::class,20)->create();
+        // factory(CashOut::class,20)->create();
     }
 }
