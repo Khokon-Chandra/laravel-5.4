@@ -1,5 +1,8 @@
 <?php
 
+use App\BankBalance;
+use App\CashOut;
+use App\Investment;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder
@@ -14,5 +17,8 @@ class DatabaseSeeder extends Seeder
         $this->call(UserSeeder::class);
         $this->call(MemberSeeder::class);
         $this->call(CashinSeeder::class);
+        factory(BankBalance::class,20)->create();
+        factory(Investment::class,20)->create();
+        factory(CashOut::class,20)->create();
     }
 }
